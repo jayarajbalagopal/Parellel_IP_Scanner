@@ -43,6 +43,7 @@ condition_variable cv_fill;
 
 bool all_batches_are_read = false;
 
+// IPMatcher class that manager the string checking
 class IPMatcher{
     const regex v4_regex = regex(
         "^(25[0-5]|2[0-4][0-9]|[1][0-9][0-9]|[0-9]|[1-9][0-9])\\."
